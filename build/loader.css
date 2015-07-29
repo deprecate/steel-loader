@@ -1,9 +1,13 @@
 /* Loader
 	 ========================================================================== */
-.loader {
+div.loader,
+span.loader,
+a.btn-loader:after,
+button.btn-loader:after {
+  content: "";
   display: inline-block;
-  border: 2px solid #a2c9fd;
-  border-left-color: #207aff;
+  border: 2px solid rgba(28, 109, 226, 0.3);
+  border-left-color: #1c6de2;
   border-radius: 50%;
   height: 15px;
   width: 15px;
@@ -12,6 +16,39 @@
   -ms-animation: loader-spin 0.75s linear infinite;
   -o-animation: loader-spin 0.75s linear infinite;
   animation: loader-spin 0.75s linear infinite; }
+
+a.btn-loader,
+button.btn-loader {
+  position: relative; }
+
+a.btn-loader:after,
+button.btn-loader:after {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -8px;
+  margin-top: -8px; }
+
+a.btn-loader:after,
+button.btn-loader:after {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -8px;
+  margin-top: -8px; }
+
+a.btn-loader:after,
+button.btn-loader:after {
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  border-left-color: white; }
+
+.btn-loader.btn-primary,
+.btn-loader.btn-primary:active {
+  color: rgba(28, 109, 226, 0); }
+
+.btn-loader.btn-default,
+.btn-loader.btn-default:active {
+  color: rgba(35, 50, 64, 0); }
 
 .loader-center {
   display: block;
