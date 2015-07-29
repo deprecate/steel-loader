@@ -1,0 +1,11 @@
+@import "steel-bootstrap/src/variables";
+@import "steel-bootstrap/src/mixins";
+
+/* Loader
+	 ========================================================================== */
+
+.loader {
+	box-shadow: $shadow-small;
+	background: white;
+	height: 72px;
+}
