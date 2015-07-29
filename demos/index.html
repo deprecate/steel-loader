@@ -7,9 +7,27 @@
 	<link rel="stylesheet" href="../bower_components/steel-bootstrap/build/bootstrap.css">
 	<link rel="stylesheet" href="../bower_components/steel-bootstrap/build/fonts/icon-12.css">
 	<link rel="stylesheet" href="../bower_components/steel-bootstrap/build/fonts/icon-16.css">
+	<link rel="stylesheet" href="../bower_components/steel-cell/build/cell.css">
 	<link rel="stylesheet" href="../build/loader.css">
+
+	<style>
+	section {
+		width: 150px;
+		height: 150px;
+		margin: 50px;
+		position: relative;
+	}
+	</style>
 </head>
 <body>
+	<!-- Inside a cell -->
+	<section class="cell">
+		<div class="loader-center">
+			<div class="loader"></div>
+		</div>
+	</section>
+
+	<!-- Full page -->
 	<div class="loader-center">
 		<div class="loader"></div>
 	</div>
